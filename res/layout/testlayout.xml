@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        <LinearLayout android:background="@drawable/topback"  android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+         <ImageButton android:layout_marginLeft="10dip" android:layout_height="50dip" android:id="@+id/backpubpage" android:src="@drawable/mainpagebig" android:layout_width="50dip"></ImageButton>
+        <TextView android:textColor="#AFCBF3" android:textSize="20px" android:layout_marginLeft="30dip" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content" android:text="Pub Finder" ></TextView>
+    </LinearLayout>
+    
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:apiKey="0LBS6OOK2e0FnjGHlOpVi3qfvgiwLLpLdEmz1HQ"/>
+</LinearLayout>

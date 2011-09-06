@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backtwo"
+    >
+    <RelativeLayout android:background="@drawable/topback" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/relativeLayout1">
+        <ImageButton android:layout_height="40dip" android:id="@+id/refresh" android:src="@drawable/refresh" android:layout_width="40dip" android:layout_alignParentRight="true"></ImageButton>
+        <TextView android:layout_height="wrap_content" android:textColor="#AFCBF3" android:textSize="25px" android:text="Kukcity" android:id="@+id/textview" android:layout_width="wrap_content" android:layout_centerHorizontal="true"></TextView>
+       </RelativeLayout>
+      
+	<RelativeLayout android:layout_height="wrap_content" 
+					android:id="@+id/relativeLayout2" 
+					android:layout_width="wrap_content">
+						 <ListView android:layout_height="350dip" 
+						 		   android:id="@+id/listView1" 
+						 		   android:divider="@drawable/line"
+						 		   android:dividerHeight="2px"
+						 		  
+						 		   android:cacheColorHint="#00000000"
+						 		   android:layout_width="fill_parent"
+						 		   android:fastScrollEnabled="true"
+						 		   android:focusable="true">
+						 		   </ListView>
+					
+					
+					</RelativeLayout>
+	<RelativeLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+		<ImageButton android:layout_centerHorizontal="true" android:focusable="false" android:id="@+id/checkinpub" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="50dip" android:background="@drawable/checkin_selector"></ImageButton>
+	</RelativeLayout>
+	
+</LinearLayout>

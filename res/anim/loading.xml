@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/rone" />
+    <item android:duration="200" android:drawable="@drawable/rtwo" />
+    <item android:duration="200" android:drawable="@drawable/rthree" />
+    <item android:duration="200" android:drawable="@drawable/rfour" />
+    <item android:duration="200" android:drawable="@drawable/rfive" />
+    <item android:duration="200" android:drawable="@drawable/rsix" />
+    <item android:duration="200" android:drawable="@drawable/rseven" />
+    <item android:duration="200" android:drawable="@drawable/reight" />
+</animation-list>

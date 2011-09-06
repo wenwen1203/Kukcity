@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="kukcity.horizon"
+      android:versionCode="3"
+      android:versionName="3.0"
+      android:screenOrientation="portrait"
+      android:debuggable="true" 
+      >
+    <uses-sdk android:minSdkVersion="3" />
+
+    <application android:icon="@drawable/appicon" android:label="Kukcity" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity android:name=".KukcityActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".PrepareRequestTokenActivity" android:launchMode="singleTask" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="x-oauthflow-twitter" android:host="callback" />
+			</intent-filter>
+		</activity>
+        <activity android:name=".searchablePub" android:screenOrientation="portrait"/>
+        <activity android:name=".nearbylocation" android:screenOrientation="portrait"/>
+  		<activity android:name=".SearchResult" android:screenOrientation="portrait"/>
+  		<activity android:name=".PubMainPage" android:screenOrientation="portrait"/>
+		<activity android:name=".WriteReviewPage" android:screenOrientation="portrait" />
+		<activity android:name=".GMapActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".TestMapActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".TwitterPage" android:screenOrientation="portrait"/>
+		<activity android:name=".PubDetailPage" android:screenOrientation="portrait"/>
+    </application>
+    
+    		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+			<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+		<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+ <style name="drinkRatingBar" parent="@android:style/Widget.RatingBar">   
+  <item name="android:progressDrawable">@drawable/beer_ratingbar</item>    <!--这里就是引用food_ratingbar.xml了 -->
+  <item name="android:minHeight">38dip</item>
+  <item name="android:maxHeight">38dip</item>
+ </style>
+</resources>

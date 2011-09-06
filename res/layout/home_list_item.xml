@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="3.0dip" android:orientation="horizontal" android:background="@drawable/listitem_selector"  android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<RelativeLayout android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_weight="0.0">
+		<ImageView android:id="@+id/headicon" android:layout_width="45.0dip" android:layout_height="45.0dip" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="4.0dip" android:layout_weight="1.0">
+		<TextView android:id="@+id/musername"   android:textStyle="bold"  android:layout_width="wrap_content" android:layout_height="32.0dip" android:textSize="14.0sp" android:layout_alignParentLeft="true"/>
+		
+		<TextView android:id="@+id/mtime" 	android:textColor="#f7a200" android:layout_width="wrap_content" android:layout_height="32.0dip" android:textSize="8.0sp" android:layout_alignParentRight="true"/>
+		<ImageView android:id="@+id/hasimage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/mtime"/>
+		<TextView android:id="@+id/mtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12.0sp" android:layout_below="@id/musername"/>
+		<TextView android:layout_marginLeft="6.0dip" android:id="@+id/home_source" android:textColor="#101810" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="10.0sp" android:layout_below="@id/mtext" android:layout_alignParentBottom="true"/>
+	</RelativeLayout>
+</LinearLayout>

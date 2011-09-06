@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="3.0dip" android:orientation="horizontal" android:background="@drawable/listitem_selector"  android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<RelativeLayout android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_weight="0.0">
+		<ImageView android:id="@+id/pubicon" android:layout_width="45.0dip" android:layout_height="45.0dip" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="4.0dip" android:layout_weight="1.0">
+		<TextView android:id="@+id/pubname"   android:textStyle="bold"  android:layout_width="wrap_content" android:layout_height="40.0dip" android:textSize="10.0sp" android:layout_alignParentLeft="true"/>
+		
+		<TextView android:id="@+id/address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12.0sp" android:layout_below="@id/pubname"/>
+		<TextView android:text=" Review : 0 " android:id="@+id/review" android:textColor="#f7a200" android:textSize="8.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"></TextView>
+		<RatingBar style="?android:attr/ratingBarStyleSmall" android:id="@+id/smallrating" android:layout_toLeftOf="@+id/review" android:layout_width="wrap_content" android:layout_height="40dip"></RatingBar>
+		
+	</RelativeLayout>
+</LinearLayout>

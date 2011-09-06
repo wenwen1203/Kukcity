@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/back" android:orientation="vertical">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/topback" >
+        <TextView android:layout_marginLeft="50dip"  android:textColor="#D3F5FF"  android:textSize="25px" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="Search Result" ></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_marginLeft="20dip" android:layout_marginTop="15dip" android:textColor="#737358" android:textSize="15px"  android:text="Sorted by " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <Spinner android:id="@+id/spinner1" android:layout_width="120dip" android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:layout_width="fill_parent" android:id="@+id/searchresultlist" android:layout_height="200dip"></ListView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+    	 <TextView android:text="Total result:" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    	 <TextView android:text="TextView" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    	
+    </LinearLayout>
+    <ImageButton  android:layout_marginLeft="90dip" android:background="@drawable/searchagain_selector" android:id="@+id/searchagain" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+   
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/back" 
+  >
+    <RelativeLayout android:background="@drawable/topback"  android:id="@+id/relativeLayout5" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+            <ImageButton android:layout_marginLeft="10dip" android:layout_height="50dip" android:id="@+id/mainpageback" android:src="@drawable/mainpagebig" android:layout_width="50dip"></ImageButton>
+ 			<TextView android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:textColor="#AFCBF3" android:textSize="25px" android:id="@+id/textView4" android:layout_height="wrap_content" android:text="Explore" ></TextView>
+      
+	</RelativeLayout>
+	
+    <RelativeLayout android:layout_marginTop="30dip" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/relativeLayout1">
+        <TextView android:layout_alignParentLeft="true" android:textColor="#AFCBF3" android:textSize="15px" android:text="Noisy" android:layout_width="wrap_content" android:id="@+id/textView5" android:layout_height="wrap_content"></TextView>
+        
+        <LinearLayout android:id="@+id/linearLayout6" android:layout_below="@+id/textView5" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+            <TextView android:layout_marginTop="10dip" android:layout_marginLeft="10dip" android:text="0%" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <SeekBar android:id="@+id/seekBar1" android:layout_height="wrap_content" android:layout_width="220dip"></SeekBar>
+            <TextView android:layout_marginTop="10dip" android:layout_marginLeft="10dip" android:text="100%" android:id="@+id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_marginTop="30dip" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/relativeLayout2">
+        <TextView android:layout_alignParentLeft="true" android:textColor="#AFCBF3" android:textSize="15px" android:text="Good Music" android:layout_width="wrap_content" android:id="@+id/textView8" android:layout_height="wrap_content"></TextView>
+        
+        <LinearLayout android:id="@+id/linearLayout7" android:layout_below="@+id/textView8" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+            <TextView android:layout_marginTop="10dip" android:layout_marginLeft="10dip" android:text="0%" android:id="@+id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <SeekBar android:id="@+id/seekBar2" android:layout_height="wrap_content" android:layout_width="220dip"></SeekBar>
+            <TextView android:layout_marginTop="10dip" android:layout_marginLeft="10dip" android:text="100%" android:id="@+id/textView10" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_marginTop="30dip" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/relativeLayout3">
+        <TextView android:layout_alignParentLeft="true" android:textColor="#AFCBF3" android:textSize="15px" android:text="Cheaper Drink" android:layout_width="wrap_content" android:id="@+id/textView11" android:layout_height="wrap_content"></TextView>
+        <LinearLayout android:id="@+id/linearLayout8" android:layout_below="@+id/textView11" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+            <TextView android:layout_marginTop="10dip" android:layout_marginLeft="10dip" android:text="0%" android:id="@+id/textView12" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <SeekBar android:id="@+id/seekBar3" android:layout_height="wrap_content" android:layout_width="220dip"></SeekBar>
+            <TextView android:layout_marginTop="10dip" android:layout_marginLeft="10dip" android:text="100%" android:id="@+id/textView13" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+    
+     <RelativeLayout android:layout_marginTop="30dip" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/relativeLayout4">
+        <TextView android:layout_alignParentLeft="true" android:textColor="#AFCBF3" android:textSize="15px" android:text="Distance" android:layout_width="wrap_content" android:id="@+id/textView14" android:layout_height="wrap_content"></TextView>
+        <LinearLayout android:id="@+id/linearLayout9" android:layout_below="@+id/textView14" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+            <TextView android:layout_marginTop="10dip" android:layout_marginLeft="10dip" android:text="0%" android:id="@+id/textView15" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <SeekBar android:id="@+id/seekBar4" android:layout_height="wrap_content" android:layout_width="220dip"></SeekBar>
+            <TextView android:layout_marginTop="10dip" android:layout_marginLeft="10dip" android:text="100%" android:id="@+id/textView16" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    
+  	
+  	
+  	
+  
+  	<ImageButton android:id="@+id/search" android:background="@drawable/explore_selector" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal"></ImageButton>
+  
+   
+</LinearLayout>

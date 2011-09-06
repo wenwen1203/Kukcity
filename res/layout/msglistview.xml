@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+    <TextView 
+    		  android:id="@+id/musername" 
+    		  android:layout_width="wrap_content" 
+    		  android:layout_height="wrap_content"
+    		 
+    		  android:textSize="15px"
+    		   android:textStyle="bold"
+    		  android:textColor="#0000ff"
+			  ></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" 
+    			  android:layout_height="wrap_content" 
+    			  android:layout_width="fill_parent"
+    			  android:orientation="vertical"
+    			  android:paddingLeft="0px"
+    			  android:paddingRight="5px"
+    			  android:layout_marginTop="5px"
+    			  android:layout_marginBottom="5px">
+         <RelativeLayout android:layout_width="fill_parent"
+  					     android:layout_height="wrap_content">
+  		
+  			<ImageView
+				  android:id="@+id/micon"
+				  
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:layout_marginTop="3px"
+				  android:layout_marginRight="5px"
+				  android:layout_toLeftOf="@+id/mtime">
+		  		  </ImageView>
+		   <TextView
+			  	android:id="@+id/mtime"
+			  
+			  	android:layout_width="wrap_content"
+			  	android:layout_height="wrap_content"
+			  	android:layout_alignParentRight="true"
+			  	android:textColor="#f7a200"
+			  	android:textSize="12px">
+		 		</TextView>
+  		</RelativeLayout>
+         <TextView
+			  android:id="@+id/mtext"
+			 
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  
+			  android:textSize="13px"
+			  android:layout_marginTop="4px">
+  			  </TextView>
+    		  
+		</LinearLayout>
+    		  
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RelativeLayout android:layout_width="wrap_content" android:id="@+id/relativeLayout1" android:layout_height="90dip">
+        
+        <TextView android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:text="Welcome to this pub, enjoy yourself!" android:id="@+id/textView1"  ></TextView>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+       <Button android:layout_marginLeft="35dip" android:text="Back" android:id="@+id/back" android:layout_width="100dip" android:layout_height="40dip"></Button>
+        <Button android:layout_marginLeft="20dip" android:text="Show Route" android:id="@+id/showway" android:layout_width="100dip" android:layout_height="40dip"></Button>
+    </LinearLayout>
+
+
+  
+    
+	
+</LinearLayout>
